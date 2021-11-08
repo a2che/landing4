@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@font-face {
+  font-family: "Jaffna Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Post No Bills Jaffna Bold"), url("fonts/PostNoBillsJaffna-Bold.woff") format("woff");
+}
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-centering {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header-top__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #000000;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.header-top__left-bar__list {
+  width: 100%;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header-top__left-bar__link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #969696;
+  text-decoration: none;
+}
+.header-top__right-bar__list {
+  width: 100%;
+  max-width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header-top__right-bar__link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #969696;
+  text-decoration: none;
+}
+
+.header-bottom__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #0F0F0F;
+}
+.header-bottom__nav__logo {
+  margin: 0;
+  font-family: "Jaffna Bold";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  color: #FFFFFF;
+  display: block;
+  margin-right: auto;
+}
+.header-bottom__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.header-bottom__item {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  float: right;
+}
+.header-bottom__item:hover {
+  background-color: #1F1F1F;
+}
+.header-bottom__item:hover a {
+  color: white;
+}
+.header-bottom__link {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  display: block;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 32px 20px;
+  color: #969696;
+  text-decoration: none;
+}
+
+.poster {
+  background: url("images/mainBG.png");
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 182px;
+  padding-bottom: 182px;
+}
+.poster__text {
+  color: #fff;
+  width: 100%;
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+.poster__cube {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  border: 3px solid white;
+  max-width: 320px;
+  height: 320px;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.poster__cube__title {
+  color: #fff;
+  font-family: "Jaffna Bold";
+  letter-spacing: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+.poster__cube__title:after {
+  content: "";
+  width: 50%;
+  display: block;
+  height: 2px;
+  margin: 5px auto;
+  border-bottom: 2px solid white;
+}
+.poster__cube__text {
+  color: #fff;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 4px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #000000;
+}
+.collection__top-left {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 94px 80px;
+}
+.collection__top-left__title {
+  color: #fff;
+  font-family: Playfair Display;
+  margin: 0;
+  margin-bottom: 100px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+}
+.collection__top-right {
+  background: url("images/collectionTopBg.png");
+  background-size: cover;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 94px;
+}
+.collection__top-right__title {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  margin: 10px 0;
+}
+.collection__top-right__button {
+  color: #fff;
+  width: 100%;
+  max-width: 160px;
+  border: 1px solid #FFF;
+  background: transparent;
+  cursor: pointer;
+  height: 40px;
+  margin: 0 auto;
+}
+.collection__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.collection__bottom__left {
+  background: url("images/collectionBottomBg.png");
+  background-size: cover;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+}
+.collection__bottom__right {
+  text-align: center;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  padding: 100px 0;
+}
+.collection__bottom__image {
+  width: 100%;
+  max-width: 880px;
+}
+.collection__bottom__title {
+  color: #fff;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+}
+.collection__bottom__text {
+  color: #fff;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+.collection__bottom__button {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 8px 0;
+  width: 100%;
+  max-width: 322px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
+.new-receipt {
+  background-color: #000000;
+  padding: 120px 0;
+}
+.new-receipt__title {
+  color: #fff;
+  text-align: center;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 120px;
+}
+
+.card-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__image {
+  background: #191B1C;
+  padding: 56px 22px;
+}
+.card__title {
+  color: #fff;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.card__price {
+  color: #fff;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
